@@ -5,6 +5,7 @@
 
 h1 {
     font-size: 4rem;
+    text-align: center;
 }
 
 .secret {
@@ -24,3 +25,10 @@ a {
     background-color: #5b5b5b;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
