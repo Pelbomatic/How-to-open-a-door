@@ -6,13 +6,14 @@
 h1 {
     font-size: 4rem;
     text-align: center;
-    padding: 25px 0px 0px 10px;
+    padding: 20px 0px 25px 10px;
 }
 
 .secret {
     font-size: 0.3rem;
     color: #333;
     background-color: #222;
+    border: 0px;
 }
 
 #findingdoor {
@@ -24,12 +25,38 @@ a {
     color: #efefef;
     padding: 5px 10px 5px 10px;
     background-color: #5b5b5b;
+    border: 2px solid #999;
+    border-radius: 3px;
+}
+
+a:hover {
+    border: 2px solid #bbb;
+    background-color: #6a6a6a;
+    transition-duration: 0.3s;
 }
 
 h2 {
     font-size: 2rem;
+    padding: 10px 0px 10px 20px;
 }
 
 h3 {
     font-size: 1.4rem;
+    padding: 8px 0px 8px 40px;
+}
+
+img {
+    padding: 20px;
+}
+
+.firstwords {
+    padding: 30px 0px 10px 20px;
+}
+
+.nopad {
+    padding: 0px 0px 0px 20px;
+}
+
+.downpad {
+    padding: 0px 0px 10px 20px;
 }
