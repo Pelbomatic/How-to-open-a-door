@@ -6,14 +6,20 @@
 h1 {
     font-size: 4rem;
     text-align: center;
-    padding: 20px 0px 25px 10px;
+    padding: 20px 0px 20px 10px;
+    border-bottom: 3px solid #323232;
 }
 
 .secret {
-    font-size: 0.3rem;
-    color: #333;
+    font-size: 0.1rem;
+    color: #323232;
     background-color: #222;
     border: 0px;
+}
+
+.secret:hover {
+    border: 0px;
+    background-color: #222;
 }
 
 #findingdoor {
@@ -59,4 +65,9 @@ img {
 
 .downpad {
     padding: 0px 0px 10px 20px;
+}
+
+nav {
+    margin: 15px 5px 16px 0px;
+    text-align: center;
 }
